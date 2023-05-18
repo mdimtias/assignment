@@ -17,7 +17,12 @@ const Blog = () => {
             <h3>Article</h3>
           </div>
           <div className="blog-info mb-3">
-            <h2>What if famous brands had regular fonts? Meet RegulaBrands!</h2>
+            <div className="d-flex justify-content-between">
+              <h2>
+                What if famous brands had regular fonts? Meet RegulaBrands!
+              </h2>
+              <ThreeDots></ThreeDots>
+            </div>
             <p>
               I’ve worked in UX for the better part of a decade. From now on, I
               plan to rei…
@@ -52,10 +57,13 @@ const Blog = () => {
             <h3>🔬️ Education</h3>
           </div>
           <div className="blog-info mb-3">
-            <h2>
-              Tax Benefits for Investment under National Pension Scheme launched
-              by Government
-            </h2>
+            <div className="d-flex justify-content-between">
+              <h2>
+                Tax Benefits for Investment under National Pension Scheme
+                launched by Government
+              </h2>
+              <ThreeDots></ThreeDots>
+            </div>
             <p>
               I’ve worked in UX for the better part of a decade. From now on, I
               plan to rei…
@@ -90,7 +98,10 @@ const Blog = () => {
             <h3>🗓️ Meetup</h3>
           </div>
           <div className="blog-info mb-3">
-            <h2>Finance & Investment Elite Social Mixer @Lujiazui</h2>
+            <div className="d-flex justify-content-between">
+              <h2>Finance & Investment Elite Social Mixer @Lujiazui</h2>
+              <ThreeDots></ThreeDots>
+            </div>
             <div className="d-flex gap-5">
               <div className="d-flex gap-2 align-items-center">
                 <CalenderIcon></CalenderIcon>
@@ -130,14 +141,17 @@ const Blog = () => {
       </div>
       <div className="blog-post">
         <div className="blog-img mb-3">
-          <img src="assets/blog-3.png" alt="" className="w-100" />
+          <img src="assets/blog-4.jpg" alt="" className="w-100" />
         </div>
         <div className="blog-detail">
           <div className="category mb-3">
             <h3>💼️ Job</h3>
           </div>
           <div className="blog-info mb-3">
-            <h2>Software Developer</h2>
+            <div className="d-flex justify-content-between">
+              <h2>Software Developer</h2>
+              <ThreeDots></ThreeDots>
+            </div>
             <div className="d-flex gap-5">
               <div className="d-flex gap-2 align-items-center">
                 <CalenderIcon></CalenderIcon>

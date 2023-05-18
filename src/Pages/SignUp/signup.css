@@ -3,6 +3,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: hsl(0 0% 0%/0.6);
+  left: 0;
+  position: fixed;
+  right: 0;
+  transition-duration: 0.3s;
+  transition-property: opacity, visibility, -webkit-transform;
+  transition-property: transform, opacity, visibility;
+  transition-property: transform, opacity, visibility, -webkit-transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 999;
 }
 .close-modal {
   height: 30px;

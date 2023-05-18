@@ -25,13 +25,13 @@
   margin: 15px 0 20px 0;
 }
 .blog-detail .blog-info .visit-website button {
-    border:none;
+  border: none;
   color: #e56135;
   background-color: white;
   padding: 5px;
 }
-.blog-detail .blog-info .visit-website .apply-btn{
-    color: #02B875
+.blog-detail .blog-info .visit-website .apply-btn {
+  color: #02b875;
 }
 .author-info .author-img {
   width: 48px;
@@ -67,5 +67,8 @@
   }
   .blog-detail .blog-info h2 {
     font-size: 16px;
+  }
+  .blog-post .blog-img img {
+    height: 120px;
   }
 }

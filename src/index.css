@@ -19,14 +19,14 @@ p {
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 19px;
 }
-.text-gray{
-    color: #3D3D3D;
+.text-gray {
+  color: #3d3d3d;
 }
-.text-xs{
-    font-size: 12px;
+.text-xs {
+  font-size: 12px;
 }
-.text-sm{
-    font-size: 14px;
+.text-sm {
+  font-size: 14px;
 }
 @media (max-width: 767px) {
   h2 {

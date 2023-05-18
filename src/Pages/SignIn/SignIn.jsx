@@ -1,12 +1,11 @@
-import React, { useState } from "react";
-import "./../SignUp/signup.css";
-const SignIn = () => {
-  const [showModal, setShowModal] = useState(true);
+import React from "react";
+import "./../SignUp/signUp.css";
+const SignIn = ({ setSignInModal }) => {
   return (
     <>
       {showModal && (
         <section className="sign-up align-items-end align-items-md-center">
-          <div className="container">
+          <div className="container position-fixed">
             <div className="row">
               <div class="col-md-2"></div>
               <div className="col-lg-8 sign-up-modal">
@@ -26,7 +25,7 @@ const SignIn = () => {
                       </h2>
                       <button
                         className="close-modal d-md-none"
-                        onClick={() => setShowModal(false)}
+                        onClick={() => setSignInModal(false)}
                       >
                         X
                       </button>
@@ -91,7 +90,7 @@ const SignIn = () => {
                       </a>
                       <button
                         className="close-modal d-none d-md-block ms-3"
-                        onClick={() => setShowModal(false)}
+                        onClick={() => setSignInModal(false)}
                       >
                         X
                       </button>
