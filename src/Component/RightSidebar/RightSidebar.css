@@ -1,0 +1,15 @@
+.follow-btn {
+  font-weight: 400;
+  font-size: 12px;
+  color: #000000;
+  background: #edeef0;
+  border-radius: 14px;
+  width: 60px;
+  height: 24px;
+  border: none;
+}
+.follow-people-list img {
+  width: 36px;
+  height: 36px;
+  border-radius: 21px;
+}

@@ -1,0 +1,86 @@
+.sign-up {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.close-modal {
+  height: 30px;
+  width: 30px;
+  border: none;
+  border-radius: 50%;
+  background: black;
+  color: white;
+}
+.sign-up .sign-up-modal {
+  background: #ffffff;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+.sign-up .sign-up-modal .sign-up-alert-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sign-up .sign-up-modal .sign-up-alert-top p {
+  font-size: 14px;
+  color: #008a45;
+  text-align: center;
+}
+.sign-up-alert-top {
+  background: #effff4;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.first-name,
+.last-name,
+.email,
+.password,
+.confirm-password {
+  background: #f7f8fa;
+  border: 1px solid #d9d9db;
+  border-radius: 2px 2px 0px 0px;
+  height: 46px;
+  padding: 10px;
+  outline: none;
+}
+.submit-btn {
+  background: #2f6ce5;
+  color: #ffffff;
+  border-radius: 20px;
+  border: none;
+  height: 40px;
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.facebook-btn {
+  background-color: #ffffff;
+  font-weight: 500;
+  font-size: 14px;
+  color: #000000;
+  border: none;
+  border: 0.6px solid #d9d9db;
+  border-radius: 2px;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.facebook-btn img {
+  width: 16px;
+  height: 16px;
+}
+.sign-up-bottom-text {
+  font-weight: 400;
+  font-size: 13px;
+  letter-spacing: -0.008em;
+  color: #000000;
+  opacity: 0.6;
+}

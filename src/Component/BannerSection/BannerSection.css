@@ -1,0 +1,22 @@
+.banner {
+    background-image: url(assets/home-banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 440px;
+    display: flex;
+    align-items: flex-end;
+}
+.banner-content {
+    padding-bottom: 50px;
+}
+
+@media (max-width: 767px){
+    .banner {
+        height: 236px;
+    }
+    .banner-content {
+        padding-bottom: 20px;
+    }
+}
+  
