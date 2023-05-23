@@ -17,7 +17,7 @@ h4 {
 }
 p {
   font-family: "IBM Plex Sans", sans-serif;
-  font-size: 19px;
+  font-size: 16px;
 }
 .text-gray {
   color: #3d3d3d;
@@ -28,6 +28,16 @@ p {
 .text-sm {
   font-size: 14px;
 }
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+}
+
 @media (max-width: 767px) {
   h2 {
     font-size: 16px;
